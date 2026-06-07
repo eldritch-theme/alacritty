@@ -1,0 +1,65 @@
+[colors.primary]
+background = "@@BACKGROUND@@"
+foreground = "@@FOREGROUND@@"
+dim_foreground = "@@COMMENT@@"
+bright_foreground = "@@FOREGROUND@@"
+
+[colors.cursor]
+text = "@@BACKGROUND@@"
+cursor = "@@ORANGE@@"
+
+[colors.vi_mode_cursor]
+text = "@@BACKGROUND@@"
+cursor = "@@PURPLE@@"
+
+[colors.search.matches]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.search.focused_match]
+foreground = "@@BACKGROUND@@"
+background = "@@GREEN@@"
+
+[colors.footer_bar]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.hints.start]
+foreground = "@@BACKGROUND@@"
+background = "@@YELLOW@@"
+
+[colors.hints.end]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.selection]
+text = "@@BACKGROUND@@"
+background = "@@ORANGE@@"
+
+[colors.normal]
+black = "@@CURRENTLINE@@"
+red = "@@RED@@"
+green = "@@GREEN@@"
+yellow = "@@YELLOW@@"
+blue = "@@COMMENT@@"
+magenta = "@@PINK@@"
+cyan = "@@CYAN@@"
+white = "@@FOREGROUND@@"
+
+[colors.bright]
+black = "@@SURFACE@@"
+red = "@@RED@@"
+green = "@@GREEN@@"
+yellow = "@@YELLOW@@"
+blue = "@@COMMENT@@"
+magenta = "@@PINK@@"
+cyan = "@@CYAN@@"
+white = "@@COMMENT@@"
+
+[[colors.indexed_colors]]
+index = 16
+color = "@@ORANGE@@"
+
+[[colors.indexed_colors]]
+index = 17
+color = "@@ORANGE@@"
