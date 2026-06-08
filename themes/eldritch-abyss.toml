@@ -18,7 +18,7 @@ background = "#506299"
 
 [colors.search.focused_match]
 foreground = "#171928"
-background = "#2dcc82"
+background = "#d4a666"
 
 [colors.footer_bar]
 foreground = "#171928"
@@ -34,25 +34,25 @@ background = "#506299"
 
 [colors.selection]
 text = "#171928"
-background = "#d4a666"
+background = "#252738"
 
 [colors.normal]
+black = "#171928"
+red = "#cc5860"
+green = "#2dcc82"
+yellow = "#ccd663"
+blue = "#506299"
+magenta = "#8b75d9"
+cyan = "#0396b3"
+white = "#d8e6e6"
+
+[colors.bright]
 black = "#252738"
 red = "#cc5860"
 green = "#2dcc82"
 yellow = "#ccd663"
 blue = "#506299"
-magenta = "#d154a1"
-cyan = "#0396b3"
-white = "#d8e6e6"
-
-[colors.bright]
-black = "#353746"
-red = "#cc5860"
-green = "#2dcc82"
-yellow = "#ccd663"
-blue = "#506299"
-magenta = "#d154a1"
+magenta = "#8b75d9"
 cyan = "#0396b3"
 white = "#506299"
 
