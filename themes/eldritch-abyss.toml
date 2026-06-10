@@ -37,7 +37,7 @@ text = "#171928"
 background = "#252738"
 
 [colors.normal]
-black = "#171928"
+black = "#353746"
 red = "#cc5860"
 green = "#2dcc82"
 yellow = "#ccd663"
@@ -47,14 +47,14 @@ cyan = "#0396b3"
 white = "#d8e6e6"
 
 [colors.bright]
-black = "#252738"
-red = "#cc5860"
-green = "#2dcc82"
-yellow = "#ccd663"
-blue = "#506299"
-magenta = "#8b75d9"
-cyan = "#0396b3"
-white = "#506299"
+black = "#474852"
+red = "#f16c75"
+green = "#37f499"
+yellow = "#f1fc79"
+blue = "#7081d0"
+magenta = "#a48cf2"
+cyan = "#04d1f9"
+white = "#ebfafa"
 
 [[colors.indexed_colors]]
 index = 16

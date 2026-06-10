@@ -37,24 +37,24 @@ text = "@@BACKGROUND@@"
 background = "@@SELECTION_BG@@"
 
 [colors.normal]
-black = "@@TERM_BLACK@@"
+black = "@@BLACK@@"
 red = "@@RED@@"
 green = "@@GREEN@@"
 yellow = "@@YELLOW@@"
 blue = "@@COMMENT@@"
 magenta = "@@PURPLE@@"
 cyan = "@@CYAN@@"
-white = "@@TERM_WHITE@@"
+white = "@@WHITE@@"
 
 [colors.bright]
-black = "@@TERM_BRIGHT_BLACK@@"
-red = "@@RED@@"
-green = "@@GREEN@@"
-yellow = "@@YELLOW@@"
-blue = "@@COMMENT@@"
-magenta = "@@PURPLE@@"
-cyan = "@@CYAN@@"
-white = "@@TERM_BRIGHT_WHITE@@"
+black = "@@BRIGHT_BLACK@@"
+red = "@@BRIGHT_RED@@"
+green = "@@BRIGHT_GREEN@@"
+yellow = "@@BRIGHT_YELLOW@@"
+blue = "@@BRIGHT_COMMENT@@"
+magenta = "@@BRIGHT_PURPLE@@"
+cyan = "@@BRIGHT_CYAN@@"
+white = "@@BRIGHT_WHITE@@"
 
 [[colors.indexed_colors]]
 index = 16

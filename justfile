@@ -9,8 +9,9 @@ _deploy_palette VARIANT \
     cursor_accent vi_cursor_accent \
     search_match_bg hint_bg \
     selection_bg \
-    term_black term_white \
-    term_bright_black term_bright_white:
+    black white \
+    bright_black bright_red bright_green bright_yellow \
+    bright_comment bright_purple bright_cyan bright_white:
     sed \
         -e "s/@@BACKGROUND@@/{{background}}/g" \
         -e "s/@@FOREGROUND@@/{{foreground}}/g" \
@@ -25,10 +26,16 @@ _deploy_palette VARIANT \
         -e "s/@@SEARCH_MATCH_BG@@/{{search_match_bg}}/g" \
         -e "s/@@HINT_BG@@/{{hint_bg}}/g" \
         -e "s/@@SELECTION_BG@@/{{selection_bg}}/g" \
-        -e "s/@@TERM_BLACK@@/{{term_black}}/g" \
-        -e "s/@@TERM_WHITE@@/{{term_white}}/g" \
-        -e "s/@@TERM_BRIGHT_BLACK@@/{{term_bright_black}}/g" \
-        -e "s/@@TERM_BRIGHT_WHITE@@/{{term_bright_white}}/g" \
+        -e "s/@@BLACK@@/{{black}}/g" \
+        -e "s/@@WHITE@@/{{white}}/g" \
+        -e "s/@@BRIGHT_BLACK@@/{{bright_black}}/g" \
+        -e "s/@@BRIGHT_RED@@/{{bright_red}}/g" \
+        -e "s/@@BRIGHT_GREEN@@/{{bright_green}}/g" \
+        -e "s/@@BRIGHT_YELLOW@@/{{bright_yellow}}/g" \
+        -e "s/@@BRIGHT_COMMENT@@/{{bright_comment}}/g" \
+        -e "s/@@BRIGHT_PURPLE@@/{{bright_purple}}/g" \
+        -e "s/@@BRIGHT_CYAN@@/{{bright_cyan}}/g" \
+        -e "s/@@BRIGHT_WHITE@@/{{bright_white}}/g" \
         .eldritch-@@VARIANT@@.toml > themes/eldritch-{{VARIANT}}.toml
 
 write:
@@ -44,8 +51,9 @@ write:
         "#f7c67f" "#a48cf2" \
         "#f7c67f" "#f1fc79" \
         "#323449" \
-        "#212337" "#ebfafa" \
-        "#323449" "#7081d0"
+        "#454759" "#f0f3f4" \
+        "#5b5c66" "#fb5b66" "#38ff9f" "#fff952" \
+        "#5b73dc" "#8a69f7" "#0ad6ff" "#ebfafa"
 
     # Abyss palette
     just _deploy_palette "abyss" \
@@ -57,8 +65,9 @@ write:
         "#d4a666" "#8b75d9" \
         "#d4a666" "#ccd663" \
         "#252738" \
-        "#171928" "#d8e6e6" \
-        "#252738" "#506299"
+        "#353746" "#d8e6e6" \
+        "#474852" "#f16c75" "#37f499" "#f1fc79" \
+        "#7081d0" "#a48cf2" "#04d1f9" "#ebfafa"
 
     # Dusk palette
     just _deploy_palette "dusk" \
@@ -70,5 +79,6 @@ write:
         "#ffaf4d" "#8a69f7" \
         "#ffaf4d" "#8a69f7" \
         "#e2e6e8" \
-        "#1e2029" "#f0f3f4" \
-        "#5b73dc" "#1e2029"
+        "#e2e6e8" "#353746" \
+        "#d5d9db" "#fb5b66" "#38ff9f" "#fff952" \
+        "#5b73dc" "#8a69f7" "#0ad6ff" "#474852"
