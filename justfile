@@ -75,10 +75,10 @@ write:
         "#1e2029" "#5b73dc" \
         "#0ad6ff" "#38ff9f" \
         "#8a69f7" "#fb5b66" \
-        "#fff952" \
+        "#ffaf4d" \
         "#ffaf4d" "#8a69f7" \
         "#ffaf4d" "#8a69f7" \
         "#e2e6e8" \
         "#e2e6e8" "#353746" \
-        "#d5d9db" "#fb5b66" "#38ff9f" "#fff952" \
+        "#d5d9db" "#fb5b66" "#38ff9f" "#ffaf4d" \
         "#5b73dc" "#8a69f7" "#0ad6ff" "#474852"
